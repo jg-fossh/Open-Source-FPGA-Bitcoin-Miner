@@ -1,0 +1,23 @@
+-- DEPTH = 16;                   -- The size of memory in words
+-- WIDTH = 128                   -- The size of data in bits
+-- ADDRESS_RADIX = HEX;          -- The radix for address values
+-- DATA_RADIX = HEX;             -- The radix for data values
+CONTENT
+BEGIN
+0 : 428a2f98a4506ceb84c87814682e6ff3;
+1 : 3956c25b71374491bef9a3f78cc70208;
+2 : d807aa9859f111f1b5c0fbcfc67178f2;
+3 : 72be5d7412835b01923f82a4e9b5dba5;
+4 : e49b69c180deb1fe243185beab1c5ed5;
+5 : 2de92c6fefbe47869bdc06a7550c7dc3;
+6 : 983e51524a7484aa0fc19dc6c19bf174;
+7 : c6e00bf3a831c66d5cb0a9dc240ca1cc;
+8 : 27b70a85d5a79147b00327c876f988da;
+9 : 650a73542e1b213806ca6351bf597fc7;
+A : a2bfe8a1766a0abb4d2c6dfc14292967;
+B : d192e819a81a664b81c2c92e53380d13;
+C : 19a4c116d6990624c24b8b7092722c85;
+D : 391c0cb31e376c08f40e3585c76c51a3;
+E : 748f82ee4ed8aa4a2748774c106aa070;
+F : 90befffa78a5636f5b9cca4f34b0bcb5;
+END;

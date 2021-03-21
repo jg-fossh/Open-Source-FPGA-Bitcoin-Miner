@@ -1,0 +1,74 @@
+% multiple-line comment
+multiple-line comment %
+-- single-line comment
+DEPTH = 64; -- The size of memory in words
+WIDTH = 32; -- The size of data in bits
+ADDRESS_RADIX = HEX; -- The radix for address values
+DATA_RADIX = HEX; -- The radix for data values
+CONTENT -- start of (address : data pairs)
+BEGIN
+00 : 32'h428a2f98; 
+01 : 32'h71374491; 
+02 : 32'hb5c0fbcf; 
+03 : 32'he9b5dba5;
+04 : 32'h3956c25b; 
+05 : 32'h59f111f1; 
+06 : 32'h923f82a4; 
+07 : 32'hab1c5ed5;
+08 : 32'hd807aa98; 
+09 : 32'h12835b01; 
+0A : 32'h243185be; 
+0B : 32'h550c7dc3;
+0C : 32'h72be5d74; 
+0D : 32'h80deb1fe; 
+0E : 32'h9bdc06a7; 
+0F : 32'hc19bf174;
+10 : 32'he49b69c1; 
+11 : 32'hefbe4786; 
+12 : 32'h0fc19dc6; 
+13 : 32'h240ca1cc;
+14 : 32'h2de92c6f; 
+15 : 32'h4a7484aa; 
+16 : 32'h5cb0a9dc; 
+17 : 32'h76f988da;
+18 : 32'h983e5152; 
+19 : 32'ha831c66d; 
+1A : 32'hb00327c8; 
+1B : 32'hbf597fc7;
+1C : 32'hc6e00bf3; 
+1D : 32'hd5a79147; 
+1E : 32'h06ca6351; 
+1F : 32'h14292967;
+20 : 32'h27b70a85; 
+21 : 32'h2e1b2138; 
+22 : 32'h4d2c6dfc; 
+23 : 32'h53380d13;
+24 : 32'h650a7354; 
+25 : 32'h766a0abb; 
+26 : 32'h81c2c92e; 
+27 : 32'h92722c85;
+28 : 32'ha2bfe8a1; 
+29 : 32'ha81a664b; 
+2A : 32'hc24b8b70; 
+2B : 32'hc76c51a3;
+2C : 32'hd192e819; 
+2D : 32'hd6990624; 
+2E : 32'hf40e3585; 
+2F : 32'h106aa070;
+30 : 32'h19a4c116; 
+31 : 32'h1e376c08; 
+32 : 32'h2748774c; 
+33 : 32'h34b0bcb5;
+34 : 32'h391c0cb3; 
+35 : 32'h4ed8aa4a; 
+36 : 32'h5b9cca4f; 
+37 : 32'h682e6ff3;
+38 : 32'h748f82ee; 
+39 : 32'h78a5636f; 
+3A : 32'h84c87814; 
+3B : 32'h8cc70208;
+3C : 32'h90befffa; 
+3D : 32'ha4506ceb; 
+3E : 32'hbef9a3f7; 
+3F : 32'hc67178f2;
+END;

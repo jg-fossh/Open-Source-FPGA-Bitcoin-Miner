@@ -1,0 +1,296 @@
+[*]
+[*] GTKWave Analyzer v3.3.108 (w)1999-2020 BSI
+[*] Wed Mar  3 20:14:38 2021
+[*]
+[dumpfile] "/home/jota/Documents/HW/HDL_projects/FPGA_MINER/sim/dump.vcd"
+[dumpfile_mtime] "Wed Mar  3 20:07:10 2021"
+[dumpfile_size] 351632844
+[savefile] "/home/jota/Documents/HW/HDL_projects/FPGA_MINER/sim/wave2.gtkw"
+[timestart] 19773900
+[size] 1366 721
+[pos] -1 -1
+*-14.744838 19822001 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] top.
+[treeopen] top.SIM_TOP.
+[treeopen] top.SIM_TOP.miner_top.
+[treeopen] top.SIM_TOP.miner_top.miner_sha256.
+[treeopen] top.SIM_TOP.miner_top.miner_sha256.genblk3.
+[treeopen] top.SIM_TOP.miner_top.miner_sha256.transform0.
+[treeopen] top.SIM_TOP.miner_top.miner_sha256.transform0.HASHERS(0).
+[treeopen] top.SIM_TOP.miner_top.miner_sha256.transform0.HASHERS(0).genblk1.
+[treeopen] top.SIM_TOP.miner_top.miner_sha256.transform0.HASHERS(1).genblk2.
+[treeopen] top.SIM_TOP.miner_top.miner_sha256.transform0.HASHERS(2).
+[treeopen] top.SIM_TOP.miner_top.miner_sha256.transform0.HASHERS(2).genblk2.
+[treeopen] top.SIM_TOP.miner_top.miner_sha256.transform0.HASHERS(3).
+[treeopen] top.SIM_TOP.miner_top.miner_sha256.transform0.HASHERS(3).genblk2.
+[treeopen] top.SIM_TOP.miner_top.miner_sha256.transform1.
+[treeopen] top.SIM_TOP.miner_top.miner_sha256.transform1.HASHERS(0).
+[sst_width] 45
+[signals_width] 278
+[sst_expanded] 0
+[sst_vpaned_height] 186
+@200
+-Miner_Top
+@22
+top.SIM_TOP.miner_top.P_ANLOGIC_EG4[31:0]
+top.SIM_TOP.miner_top.P_LOOP_LOG2[31:0]
+top.SIM_TOP.miner_top.P_NONCE_SEED[31:0]
+top.SIM_TOP.miner_top.P_SPI_MODE[31:0]
+top.SIM_TOP.miner_top.L_DATA_OUT_MSB[31:0]
+top.SIM_TOP.miner_top.L_NONCE_MSB[31:0]
+@200
+-
+@28
+top.SIM_TOP.miner_top.i_system_clk
+top.SIM_TOP.miner_top.i_system_reset
+top.SIM_TOP.miner_top.i_spi_clk
+top.SIM_TOP.miner_top.i_spi_ss
+top.SIM_TOP.miner_top.i_spi_mosi
+top.SIM_TOP.miner_top.o_spi_miso
+@200
+-
+@28
+top.SIM_TOP.miner_top.w_bytes2words_ack
+@22
+top.SIM_TOP.miner_top.w_bytes2words_data[351:0]
+@28
+top.SIM_TOP.miner_top.w_bytes2words_stb
+top.SIM_TOP.miner_top.w_miner_ack
+@22
+top.SIM_TOP.miner_top.w_miner_data[31:0]
+@28
+top.SIM_TOP.miner_top.w_miner_stb
+top.SIM_TOP.miner_top.w_spi_write_ack
+@22
+top.SIM_TOP.miner_top.w_spi_write_data[7:0]
+@28
+top.SIM_TOP.miner_top.w_spi_write_stb
+top.SIM_TOP.miner_top.w_words2bytes_ack
+@22
+top.SIM_TOP.miner_top.w_words2bytes_data[7:0]
+@28
+top.SIM_TOP.miner_top.w_words2bytes_stb
+@200
+-
+-Miner_SHA256
+@24
+top.SIM_TOP.miner_top.miner_sha256.P_ANLOGIC_EG4[31:0]
+@22
+top.SIM_TOP.miner_top.miner_sha256.P_HASHER_DATA_PADDING[383:0]
+@24
+top.SIM_TOP.miner_top.miner_sha256.P_LOOP_LOG2[31:0]
+top.SIM_TOP.miner_top.miner_sha256.P_MINER_DATA_IN_MSB[31:0]
+top.SIM_TOP.miner_top.miner_sha256.P_NONCE_MSB[31:0]
+@28
+top.SIM_TOP.miner_top.miner_sha256.P_NONCE_PREFIX[0]
+@24
+top.SIM_TOP.miner_top.miner_sha256.P_NONCE_SEED[31:0]
+@22
+top.SIM_TOP.miner_top.miner_sha256.P_TRANSFORM1_INPUT_PAD[255:0]
+top.SIM_TOP.miner_top.miner_sha256.P_TRANSFORM1_STATE[255:0]
+@24
+top.SIM_TOP.miner_top.miner_sha256.L_COUNT_MSB[31:0]
+top.SIM_TOP.miner_top.miner_sha256.L_HASHERS_NUM[31:0]
+top.SIM_TOP.miner_top.miner_sha256.L_K_ARRAY_MSB[31:0]
+top.SIM_TOP.miner_top.miner_sha256.L_K_DEPTH[31:0]
+top.SIM_TOP.miner_top.miner_sha256.L_K_WORDS[31:0]
+@22
+top.SIM_TOP.miner_top.miner_sha256.L_NONCE_OFFSET[7:0]
+@24
+top.SIM_TOP.miner_top.miner_sha256.L_UNWRAP_LEVEL[5:0]
+@200
+-
+@28
+top.SIM_TOP.miner_top.miner_sha256.i_clk
+top.SIM_TOP.miner_top.miner_sha256.i_reset
+@200
+-
+@28
+top.SIM_TOP.miner_top.miner_sha256.i_slave_write_stb
+@22
+top.SIM_TOP.miner_top.miner_sha256.i_slave_write_data[351:0]
+@200
+-
+@28
+top.SIM_TOP.miner_top.miner_sha256.o_master_write_stb
+top.SIM_TOP.miner_top.miner_sha256.i_master_write_ack
+@22
+top.SIM_TOP.miner_top.miner_sha256.o_master_write_data[31:0]
+@200
+-
+@28
+top.SIM_TOP.miner_top.miner_sha256.r_ack
+@24
+top.SIM_TOP.miner_top.miner_sha256.r_count[3:0]
+@22
+top.SIM_TOP.miner_top.miner_sha256.r_nonce[31:0]
+top.SIM_TOP.miner_top.miner_sha256.r_nonce_next[31:0]
+@28
+top.SIM_TOP.miner_top.miner_sha256.r_write_stb
+@22
+top.SIM_TOP.miner_top.miner_sha256.w_slave_write_tgc[127:0]
+top.SIM_TOP.miner_top.miner_sha256.w_transform0_master_hash[255:0]
+top.SIM_TOP.miner_top.miner_sha256.w_transform1_master_hash[255:0]
+@28
+top.SIM_TOP.miner_top.miner_sha256.w_write_stb
+@200
+-
+-Ks_BRAM
+@24
+top.SIM_TOP.miner_top.miner_sha256.genblk3.Ks_ram.P_BRAM_ADDRESS_MSB[31:0]
+top.SIM_TOP.miner_top.miner_sha256.genblk3.Ks_ram.P_BRAM_DATA_MSB[31:0]
+top.SIM_TOP.miner_top.miner_sha256.genblk3.Ks_ram.P_BRAM_DEPTH[31:0]
+top.SIM_TOP.miner_top.miner_sha256.genblk3.Ks_ram.P_BRAM_HAS_FILE[31:0]
+@c00820
+top.SIM_TOP.miner_top.miner_sha256.genblk3.Ks_ram.P_BRAM_INIT_FILE[63:0]
+@28
+(0)top.SIM_TOP.miner_top.miner_sha256.genblk3.Ks_ram.P_BRAM_INIT_FILE[63:0]
+(1)top.SIM_TOP.miner_top.miner_sha256.genblk3.Ks_ram.P_BRAM_INIT_FILE[63:0]
+(2)top.SIM_TOP.miner_top.miner_sha256.genblk3.Ks_ram.P_BRAM_INIT_FILE[63:0]
+(3)top.SIM_TOP.miner_top.miner_sha256.genblk3.Ks_ram.P_BRAM_INIT_FILE[63:0]
+(4)top.SIM_TOP.miner_top.miner_sha256.genblk3.Ks_ram.P_BRAM_INIT_FILE[63:0]
+(5)top.SIM_TOP.miner_top.miner_sha256.genblk3.Ks_ram.P_BRAM_INIT_FILE[63:0]
+(6)top.SIM_TOP.miner_top.miner_sha256.genblk3.Ks_ram.P_BRAM_INIT_FILE[63:0]
+(7)top.SIM_TOP.miner_top.miner_sha256.genblk3.Ks_ram.P_BRAM_INIT_FILE[63:0]
+(8)top.SIM_TOP.miner_top.miner_sha256.genblk3.Ks_ram.P_BRAM_INIT_FILE[63:0]
+(9)top.SIM_TOP.miner_top.miner_sha256.genblk3.Ks_ram.P_BRAM_INIT_FILE[63:0]
+(10)top.SIM_TOP.miner_top.miner_sha256.genblk3.Ks_ram.P_BRAM_INIT_FILE[63:0]
+(11)top.SIM_TOP.miner_top.miner_sha256.genblk3.Ks_ram.P_BRAM_INIT_FILE[63:0]
+(12)top.SIM_TOP.miner_top.miner_sha256.genblk3.Ks_ram.P_BRAM_INIT_FILE[63:0]
+(13)top.SIM_TOP.miner_top.miner_sha256.genblk3.Ks_ram.P_BRAM_INIT_FILE[63:0]
+(14)top.SIM_TOP.miner_top.miner_sha256.genblk3.Ks_ram.P_BRAM_INIT_FILE[63:0]
+(15)top.SIM_TOP.miner_top.miner_sha256.genblk3.Ks_ram.P_BRAM_INIT_FILE[63:0]
+(16)top.SIM_TOP.miner_top.miner_sha256.genblk3.Ks_ram.P_BRAM_INIT_FILE[63:0]
+(17)top.SIM_TOP.miner_top.miner_sha256.genblk3.Ks_ram.P_BRAM_INIT_FILE[63:0]
+(18)top.SIM_TOP.miner_top.miner_sha256.genblk3.Ks_ram.P_BRAM_INIT_FILE[63:0]
+(19)top.SIM_TOP.miner_top.miner_sha256.genblk3.Ks_ram.P_BRAM_INIT_FILE[63:0]
+(20)top.SIM_TOP.miner_top.miner_sha256.genblk3.Ks_ram.P_BRAM_INIT_FILE[63:0]
+(21)top.SIM_TOP.miner_top.miner_sha256.genblk3.Ks_ram.P_BRAM_INIT_FILE[63:0]
+(22)top.SIM_TOP.miner_top.miner_sha256.genblk3.Ks_ram.P_BRAM_INIT_FILE[63:0]
+(23)top.SIM_TOP.miner_top.miner_sha256.genblk3.Ks_ram.P_BRAM_INIT_FILE[63:0]
+(24)top.SIM_TOP.miner_top.miner_sha256.genblk3.Ks_ram.P_BRAM_INIT_FILE[63:0]
+(25)top.SIM_TOP.miner_top.miner_sha256.genblk3.Ks_ram.P_BRAM_INIT_FILE[63:0]
+(26)top.SIM_TOP.miner_top.miner_sha256.genblk3.Ks_ram.P_BRAM_INIT_FILE[63:0]
+(27)top.SIM_TOP.miner_top.miner_sha256.genblk3.Ks_ram.P_BRAM_INIT_FILE[63:0]
+(28)top.SIM_TOP.miner_top.miner_sha256.genblk3.Ks_ram.P_BRAM_INIT_FILE[63:0]
+(29)top.SIM_TOP.miner_top.miner_sha256.genblk3.Ks_ram.P_BRAM_INIT_FILE[63:0]
+(30)top.SIM_TOP.miner_top.miner_sha256.genblk3.Ks_ram.P_BRAM_INIT_FILE[63:0]
+(31)top.SIM_TOP.miner_top.miner_sha256.genblk3.Ks_ram.P_BRAM_INIT_FILE[63:0]
+(32)top.SIM_TOP.miner_top.miner_sha256.genblk3.Ks_ram.P_BRAM_INIT_FILE[63:0]
+(33)top.SIM_TOP.miner_top.miner_sha256.genblk3.Ks_ram.P_BRAM_INIT_FILE[63:0]
+(34)top.SIM_TOP.miner_top.miner_sha256.genblk3.Ks_ram.P_BRAM_INIT_FILE[63:0]
+(35)top.SIM_TOP.miner_top.miner_sha256.genblk3.Ks_ram.P_BRAM_INIT_FILE[63:0]
+(36)top.SIM_TOP.miner_top.miner_sha256.genblk3.Ks_ram.P_BRAM_INIT_FILE[63:0]
+(37)top.SIM_TOP.miner_top.miner_sha256.genblk3.Ks_ram.P_BRAM_INIT_FILE[63:0]
+(38)top.SIM_TOP.miner_top.miner_sha256.genblk3.Ks_ram.P_BRAM_INIT_FILE[63:0]
+(39)top.SIM_TOP.miner_top.miner_sha256.genblk3.Ks_ram.P_BRAM_INIT_FILE[63:0]
+(40)top.SIM_TOP.miner_top.miner_sha256.genblk3.Ks_ram.P_BRAM_INIT_FILE[63:0]
+(41)top.SIM_TOP.miner_top.miner_sha256.genblk3.Ks_ram.P_BRAM_INIT_FILE[63:0]
+(42)top.SIM_TOP.miner_top.miner_sha256.genblk3.Ks_ram.P_BRAM_INIT_FILE[63:0]
+(43)top.SIM_TOP.miner_top.miner_sha256.genblk3.Ks_ram.P_BRAM_INIT_FILE[63:0]
+(44)top.SIM_TOP.miner_top.miner_sha256.genblk3.Ks_ram.P_BRAM_INIT_FILE[63:0]
+(45)top.SIM_TOP.miner_top.miner_sha256.genblk3.Ks_ram.P_BRAM_INIT_FILE[63:0]
+(46)top.SIM_TOP.miner_top.miner_sha256.genblk3.Ks_ram.P_BRAM_INIT_FILE[63:0]
+(47)top.SIM_TOP.miner_top.miner_sha256.genblk3.Ks_ram.P_BRAM_INIT_FILE[63:0]
+(48)top.SIM_TOP.miner_top.miner_sha256.genblk3.Ks_ram.P_BRAM_INIT_FILE[63:0]
+(49)top.SIM_TOP.miner_top.miner_sha256.genblk3.Ks_ram.P_BRAM_INIT_FILE[63:0]
+(50)top.SIM_TOP.miner_top.miner_sha256.genblk3.Ks_ram.P_BRAM_INIT_FILE[63:0]
+(51)top.SIM_TOP.miner_top.miner_sha256.genblk3.Ks_ram.P_BRAM_INIT_FILE[63:0]
+(52)top.SIM_TOP.miner_top.miner_sha256.genblk3.Ks_ram.P_BRAM_INIT_FILE[63:0]
+(53)top.SIM_TOP.miner_top.miner_sha256.genblk3.Ks_ram.P_BRAM_INIT_FILE[63:0]
+(54)top.SIM_TOP.miner_top.miner_sha256.genblk3.Ks_ram.P_BRAM_INIT_FILE[63:0]
+(55)top.SIM_TOP.miner_top.miner_sha256.genblk3.Ks_ram.P_BRAM_INIT_FILE[63:0]
+(56)top.SIM_TOP.miner_top.miner_sha256.genblk3.Ks_ram.P_BRAM_INIT_FILE[63:0]
+(57)top.SIM_TOP.miner_top.miner_sha256.genblk3.Ks_ram.P_BRAM_INIT_FILE[63:0]
+(58)top.SIM_TOP.miner_top.miner_sha256.genblk3.Ks_ram.P_BRAM_INIT_FILE[63:0]
+(59)top.SIM_TOP.miner_top.miner_sha256.genblk3.Ks_ram.P_BRAM_INIT_FILE[63:0]
+(60)top.SIM_TOP.miner_top.miner_sha256.genblk3.Ks_ram.P_BRAM_INIT_FILE[63:0]
+(61)top.SIM_TOP.miner_top.miner_sha256.genblk3.Ks_ram.P_BRAM_INIT_FILE[63:0]
+(62)top.SIM_TOP.miner_top.miner_sha256.genblk3.Ks_ram.P_BRAM_INIT_FILE[63:0]
+(63)top.SIM_TOP.miner_top.miner_sha256.genblk3.Ks_ram.P_BRAM_INIT_FILE[63:0]
+@1401200
+-group_end
+@200
+-
+@28
+top.SIM_TOP.miner_top.miner_sha256.genblk3.Ks_ram.i_rclk
+@22
+top.SIM_TOP.miner_top.miner_sha256.genblk3.Ks_ram.i_raddr[3:0]
+top.SIM_TOP.miner_top.miner_sha256.genblk3.Ks_ram.o_rdata[127:0]
+top.SIM_TOP.miner_top.miner_sha256.genblk3.Ks_ram.r_rdata[127:0]
+@28
+top.SIM_TOP.miner_top.miner_sha256.genblk3.Ks_ram.i_wclk
+top.SIM_TOP.miner_top.miner_sha256.genblk3.Ks_ram.i_we
+@22
+top.SIM_TOP.miner_top.miner_sha256.genblk3.Ks_ram.i_waddr[3:0]
+top.SIM_TOP.miner_top.miner_sha256.genblk3.Ks_ram.i_wdata[127:0]
+@200
+-
+-Transform0
+@24
+top.SIM_TOP.miner_top.miner_sha256.transform0.P_ANLOGIC_EG4[31:0]
+top.SIM_TOP.miner_top.miner_sha256.transform0.P_K_ARRAY_MSB[31:0]
+top.SIM_TOP.miner_top.miner_sha256.transform0.P_NUM_HASHERS[31:0]
+top.SIM_TOP.miner_top.miner_sha256.transform0.P_UNWRAP_LEVEL[31:0]
+@200
+-
+@28
+top.SIM_TOP.miner_top.miner_sha256.transform0.i_clk
+top.SIM_TOP.miner_top.miner_sha256.transform0.i_reset
+@200
+-
+@28
+top.SIM_TOP.miner_top.miner_sha256.transform0.i_slave_write_stb
+@22
+top.SIM_TOP.miner_top.miner_sha256.transform0.i_slave_write_data[767:0]
+top.SIM_TOP.miner_top.miner_sha256.transform0.i_slave_write_tgc[127:0]
+top.SIM_TOP.miner_top.miner_sha256.transform0.jj[31:0]
+top.SIM_TOP.miner_top.miner_sha256.transform0.w_state_in[255:0]
+top.SIM_TOP.miner_top.miner_sha256.transform0.tx_hash[255:0]
+top.SIM_TOP.miner_top.miner_sha256.transform0.o_master_write_data[255:0]
+@200
+-
+@22
+top.SIM_TOP.miner_top.miner_sha256.transform0.HASHERS(0).genblk1.hasher.k[31:0]
+top.SIM_TOP.miner_top.miner_sha256.transform0.HASHERS(0).W[511:0]
+top.SIM_TOP.miner_top.miner_sha256.transform0.HASHERS(1).genblk2.hasher.k[31:0]
+top.SIM_TOP.miner_top.miner_sha256.transform0.HASHERS(1).W[511:0]
+top.SIM_TOP.miner_top.miner_sha256.transform0.HASHERS(2).genblk2.hasher.k[31:0]
+top.SIM_TOP.miner_top.miner_sha256.transform0.HASHERS(2).W[511:0]
+@23
+top.SIM_TOP.miner_top.miner_sha256.transform0.HASHERS(3).genblk2.hasher.k[31:0]
+@22
+top.SIM_TOP.miner_top.miner_sha256.transform0.HASHERS(3).W[511:0]
+@200
+-
+-Transform1
+@24
+top.SIM_TOP.miner_top.miner_sha256.transform1.P_ANLOGIC_EG4[31:0]
+top.SIM_TOP.miner_top.miner_sha256.transform1.P_K_ARRAY_MSB[31:0]
+top.SIM_TOP.miner_top.miner_sha256.transform1.P_NUM_HASHERS[31:0]
+top.SIM_TOP.miner_top.miner_sha256.transform1.P_UNWRAP_LEVEL[31:0]
+@200
+-
+@28
+top.SIM_TOP.miner_top.miner_sha256.transform1.i_clk
+top.SIM_TOP.miner_top.miner_sha256.transform1.i_reset
+@200
+-
+@28
+top.SIM_TOP.miner_top.miner_sha256.transform1.i_slave_write_stb
+@22
+top.SIM_TOP.miner_top.miner_sha256.transform1.i_slave_write_data[767:0]
+top.SIM_TOP.miner_top.miner_sha256.transform1.i_slave_write_tgc[127:0]
+top.SIM_TOP.miner_top.miner_sha256.transform1.jj[31:0]
+top.SIM_TOP.miner_top.miner_sha256.transform1.w_state_in[255:0]
+top.SIM_TOP.miner_top.miner_sha256.transform1.tx_hash[255:0]
+top.SIM_TOP.miner_top.miner_sha256.transform1.o_master_write_data[255:0]
+@200
+-
+@22
+top.SIM_TOP.miner_top.miner_sha256.transform1.HASHERS(0).W[511:0]
+top.SIM_TOP.miner_top.miner_sha256.transform1.HASHERS(1).W[511:0]
+top.SIM_TOP.miner_top.miner_sha256.transform1.HASHERS(2).W[511:0]
+top.SIM_TOP.miner_top.miner_sha256.transform1.HASHERS(3).W[511:0]
+[pattern_trace] 1
+[pattern_trace] 0
