@@ -3,7 +3,9 @@ Open-Source FPGA Bitcoin Miner - SiPEED TANG PREMIER BUILD
 
 ------------------------------------------------------------
 Copyright (C) 2011 fpgaminer@bitcoin-mining.com
+
 Copyright (C) 2021 Jose R Garcia jg-fossh@protonmail.com
+
 
 Licensing Agreement : 
 
